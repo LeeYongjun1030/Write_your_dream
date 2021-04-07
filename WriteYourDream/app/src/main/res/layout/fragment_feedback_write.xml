@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:text="Today's feedback"
+        android:textSize="18dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/editText"
+        style="@style/EditTextTheme2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:hint=" 오늘의 간략한 피드백을 작성하여 주세요."
+        android:textColorHint="@android:color/darker_gray"
+        android:lines="4"
+        android:maxLines="4"
+        android:minLines="4"
+        android:textCursorDrawable="@drawable/cursor_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/buttonborder"
+            android:text="추가"
+            />
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/buttonborder"
+            android:text="취소"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
