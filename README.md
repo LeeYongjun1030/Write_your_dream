@@ -3,7 +3,7 @@ mobile app project using AndroidStudio (Java)
 
 # What app is it?
 write your goals and dreams on this app.  
-It's also fine to write down the tasks that you should perfom everyday.
+It's also fine to write down the tasks that you should perfom everyday.  
 This app reminds you of your tasks by sending push notification at the time you set before.
 
 https://play.google.com/store/apps/details?id=org.techtown.writeyourdreambyleeyongjun
